@@ -1,3 +1,6 @@
+# In this function the unique common elements in two
+# separate lists are collected and put in a new list.
+
 def unique_common(a, b):
     MyList = []
     for i in a:
