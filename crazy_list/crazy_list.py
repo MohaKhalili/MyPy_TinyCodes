@@ -1,3 +1,5 @@
+#Check a list to see if it has front and back symmetry
+
 def crazy_list(MyList):
     Condition = True
     for i in range(len(MyList)):
