@@ -4,17 +4,13 @@ This is a repository of my Python codes I've written for the "Introduction to Pr
 
 This course has been launched by the University of Texas at Arlington (UTArlingtonX: CSE1309x).
 
-
-
-course refrences:
+## Course refrences
 
 1 - Rossum, Guido Van. "Foreword for "Programming Python" Python.org, May 1996. Web. 22 Dec. 2015.
 
 2 - "About Python." About Python | Python.org  Python.org, n.d. Web.
 
-
-
-Other Tutorials:
+## Other Tutorials
 
 Beginner's Guide to Python - [https://wiki.python.org/moin/BeginnersGuide]
 
