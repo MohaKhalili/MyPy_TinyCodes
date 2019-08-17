@@ -12,21 +12,26 @@ def single_insert_or_delete(s1,s2):
     s1 = s1.lower()
     s2 = s2.lower()
     result = 0
+    if len(s1)>=len(s2):
+        max_string = s1
+        min_string = s2
+    else:
+        max_string = s2
+        min_string = s1
     if s1 != s2:
+        result = 2
         if len(s1) != len(s2):
-            result = 2
-            max_string = max(s1, s2)
-            for index in range(min(len(s1), len(s2))):
+            if (max_string.replace(max_string[-1], "", 1) == min_string) or (max_string.replace(max_string[0], "", 1) == min_string):
+                result = 1
+            for index in range(min(len(s1), len(s2) ) ):
                 if s1[index] != s2[index]:
-                    max_string = max_string.replace(max_string[index],"",1)
-                    if max_string == min(s1, s2):
+                    max_string = max_string.replace(max_string[index],"", 1)
+                    if max_string == min_string:
                         result = 1
                         break
-                elif max_string.replace(max_string[-1],"",1) == min(s1, s2):
-                    result = 1
-        else:
-            result = 2
+                    max_string = max(s1, s2)
     return result
+
 
 # driver code test
 input_string1 = input("enter your first string: ")
