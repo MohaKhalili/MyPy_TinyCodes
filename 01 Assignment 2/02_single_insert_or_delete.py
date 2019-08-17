@@ -38,3 +38,30 @@ input_string1 = input("enter your first string: ")
 input_string2 = input("enter your second string: ")
 result = single_insert_or_delete(input_string1, input_string2)
 print(result)
+
+################### Instructor function ###################
+# def _instructor_function (s1,s2):
+#    s1=s1.lower()
+#    s2=s2.lower()
+#    if s1==s2:
+#        return 0
+#    if abs(len(s1)-len(s2))!=1:
+#        return 2
+#
+#    if len(s1)>len(s2):
+#        # only deletion is possible
+#        for k in range(len(s2)):
+#            if s1[k]!=s2[k]:
+#                if s1[k+1:]==s2[k:]:
+#                    return 1
+#                else:
+#                    return 2
+#        return 1
+#    else: # s1 is shorter Only insertion is possible
+#        for k in range(len(s1)):
+#            if s1[k]!=s2[k]:
+#                if s1[k:]==s2[k+1:]:
+#                    return 1
+#                else:
+#                    return 2
+#        return 1
