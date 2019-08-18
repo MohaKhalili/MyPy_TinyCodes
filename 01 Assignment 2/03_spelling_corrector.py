@@ -30,7 +30,6 @@ def spelling_corrector(s1,s2):
     new_string = ""
     correct_spells = s2
     string_splited = s1.split()
-    print(string_splited)
 
 # Definition required functions
     def find_mismatch(s1, s2):
@@ -50,6 +49,7 @@ def spelling_corrector(s1,s2):
             else:
                 result = 0
         return result
+
     def single_insert_or_delete(s1, s2):
         s1 = s1.lower()
         s2 = s2.lower()
@@ -77,20 +77,32 @@ def spelling_corrector(s1,s2):
 
     for word in string_splited:
         if len(word) > 2:
+            count = 0
             for word_correct_spells in correct_spells:
                 if single_insert_or_delete(word_correct_spells, word) == 0:
-                    new_string = new_string + word + " "
+                    new_string = new_string + word.lower() + " "
+                    count = 1
                     break
-                elif single_insert_or_delete(word_correct_spells, word) == 1:
-                    new_string = new_string + word_correct_spells + " "
+                elif (single_insert_or_delete(word_correct_spells, word) == 1):
+                    new_string = new_string + word_correct_spells.lower() + " "
+                    count = 1
                     break
-                elif len(word) == 3 and word != word_correct_spells:
-                    new_string = new_string + word + " "
+                elif find_mismatch(word_correct_spells, word) == 1:
+                    new_string = new_string + word_correct_spells.lower() + " "
+                    count = 1
                     break
+            if count == 0:
+                new_string = new_string + word.lower() + " "
         else:
-            new_string = new_string + word + " "
+            new_string = new_string + word.lower() + " "
     result = new_string.strip()
     return result
+
+
+# driver code tester
+
+#String = "Asignment three xample inpu "
+#correct_spells = ['Assignmen', 'tree', 'three', 'example', 'output', 'input']
 
 String = "Thes is the Firs cas"
 correct_spells = ['that','first','case','car']
