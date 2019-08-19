@@ -10,7 +10,7 @@ def Maximum_Even_Value_of_2D_List(my_list):
             test_number = dim1[index]%2
             if test_number == 0:
                 even_list.append(dim1[index])
-    if len(even_list)>0:
+    if len(even_list) > 0:
         max_even = even_list[0]
         for i in range(1,len(even_list)):
             if max_even <= even_list[i]:
