@@ -6,11 +6,28 @@
 # letter character is equal to a capital letter character.
 
 def Dictionary_of_Letter_Count(your_string):
-    your_string = your_string.upper()
-    return your_string
+    your_string = your_string.lower()
+    splited_string = your_string.split()
+    my_dict = {}
+    for word in splited_string:
+        for char in word:
+            count = your_string.count(char)
+            my_dict.setdefault(char, count)
+    return my_dict
 
 
 # driver code tester
 string = "SALAM mohammad"
 result = Dictionary_of_Letter_Count(string)
 print(result)
+
+################### Sample Solution ###################
+#def _dictionary_of_letter_counts_sample_(sample_string):
+#    stripped_string = sample_string.replace(" ", "")        # remove all white spaces
+#    lowercase_stripped_string = stripped_string.lower()     # convert to lower case
+#    sample_dictionary = {}
+#    # Iterate through the lowercase stripped string and set each
+#    # character as a key and its count as the value
+#    for character in lowercase_stripped_string:
+#        sample_dictionary[character] = lowercase_stripped_string.count(character)
+#    return sample_dictionary
