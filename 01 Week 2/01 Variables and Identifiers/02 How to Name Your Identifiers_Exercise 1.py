@@ -1,0 +1,1 @@
+# Determine if the following variable names are valid or invalid:
