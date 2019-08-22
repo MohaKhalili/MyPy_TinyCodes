@@ -2,7 +2,7 @@
 
 This is a repository of my Python codes I've written for the "Introduction to Programming Using Python" course at edx.
 
-This course has been launched by the University of Texas at Arlington (UTArlingtonX: CSE1309x).
+This course has been launched by the University of Texas at Arlington [UTArlingtonX: CSE1309x)](https://courses.edx.org/courses/course-v1:UTArlingtonX+CSE1309x+1T2018/course/).
 
 ## Course refrences
 
@@ -12,14 +12,14 @@ This course has been launched by the University of Texas at Arlington (UTArlingt
 
 ## Other Tutorials
 
-Beginner's Guide to Python - [https://wiki.python.org/moin/BeginnersGuide]
+[Beginner's Guide to Python](https://wiki.python.org/moin/BeginnersGuide)
 
-Python 3.4.4 documentation - [https://docs.python.org/3.4/]
+[Python 3.4.4 documentation](https://docs.python.org/3.4/)
 
-The Python Tutorial (V 3.4) - [https://docs.python.org/3.4/tutorial/]
+[The Python Tutorial (V 3.4)](https://docs.python.org/3.4/tutorial/)
 
-Learn Python the Hard Way - [http://learnpythonthehardway.org/book/]
+[Learn Python the Hard Way)[http://learnpythonthehardway.org/book/)
 
-Python Tutor - [http://www.pythontutor.com/visualize.html#mode=edit]
+[Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit)
 
-Codecademy - [https://www.codecademy.com/]
+[Codecademy](https://www.codecademy.com/)
