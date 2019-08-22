@@ -2,7 +2,7 @@
 
 This is a repository of my Python codes I've written for the "Introduction to Programming Using Python" course at edx.
 
-This course has been launched by the University of Texas at Arlington [UTArlingtonX: CSE1309x)](https://courses.edx.org/courses/course-v1:UTArlingtonX+CSE1309x+1T2018/course/).
+This course has been launched by the University of Texas at Arlington [(UTArlingtonX: CSE1309x).](https://courses.edx.org/courses/course-v1:UTArlingtonX+CSE1309x+1T2018/course/)
 
 ## Course refrences
 
@@ -18,7 +18,7 @@ This course has been launched by the University of Texas at Arlington [UTArlingt
 
 [The Python Tutorial (V 3.4)](https://docs.python.org/3.4/tutorial/)
 
-[Learn Python the Hard Way)[http://learnpythonthehardway.org/book/)
+[Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
 
 [Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit)
 
