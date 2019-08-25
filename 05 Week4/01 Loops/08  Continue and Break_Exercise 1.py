@@ -1,0 +1,1 @@
+# What will be printed after each of the following code segments? If error, then write Error
