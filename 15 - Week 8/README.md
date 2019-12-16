@@ -1,25 +1,23 @@
-# MyPy_TinyCodes
+#  Eighth week content
 
-This is a repository of my Python codes I've written for the "Introduction to Programming Using Python" course at edx.
+We explain here what has been done in this section.
 
-This course has been launched by the University of Texas at Arlington ([UTArlingtonX: CSE1309x](https://courses.edx.org/courses/course-v1:UTArlingtonX+CSE1309x+1T2018/course/))
+## File I/O:
 
-## Course refrences
+1. File IO
+2. File Acess Modes
+3. File Position
 
-1 - Rossum, Guido Van. "Foreword for "Programming Python" Python.org, May 1996. Web. 22 Dec. 2015.
+## Tuples:
 
-2 - "About Python." About Python | Python.org  Python.org, n.d. Web.
+1. Tuples
+2. Tuples in Function Returns
 
-## Other Tutorials
+## Formatting:
 
-[Beginner's Guide to Python](https://wiki.python.org/moin/BeginnersGuide)
-
-[Python 3.4.4 documentation](https://docs.python.org/3.4/)
-
-[The Python Tutorial (V 3.4)](https://docs.python.org/3.4/tutorial/)
-
-[Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
-
-[Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit)
-
-[Codecademy](https://www.codecademy.com/)
+1. Formatting
+2. Formatting Positional
+3. Formatting Width Precision Type
+4. Formatting Practice
+5. Formatting Fill Align
+6. Formatting Sign
