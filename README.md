@@ -1,8 +1,10 @@
 # MyPy_TinyCodes
 
-This is a repository of my Python codes I've written for the "Introduction to Programming Using Python" course at edx.
-
-This course has been launched by the University of Texas at Arlington ([UTArlingtonX: CSE1309x](https://courses.edx.org/courses/course-v1:UTArlingtonX+CSE1309x+1T2018/course/))
+This is a repo of my Python codes I've written for the "Introduction to Programming Using Python" course at edx.
+It has been launched by the University of Texas at Arlington, 
+([UTArlingtonX: CSE1309x](https://courses.edx.org/courses/course-v1:UTArlingtonX+CSE1309x+1T2018/course/))
+and includes 9 weeks of training on various Python programming topics, 4 assignments, and 6 exams. 
+According to Jadi, the course covers up to 70% of Python's mastery :D
 
 ## Course refrences
 
