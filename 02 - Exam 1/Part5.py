@@ -10,3 +10,9 @@ week_list = ['MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY',
 x = int(x)
 x=x-1
 print(week_list[x])
+
+################### Sample Solution ###################
+# user_response = int(input("Enter first integer:"))
+# index=int(user_response)
+# days = ["MONDAY", "TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY", "SUNDAY"]
+# print(days[index-1])
