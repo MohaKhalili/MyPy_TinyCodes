@@ -8,3 +8,10 @@ unknown_number = int(x)
 y = (unknown_number*unknown_number)-(12*unknown_number)+11
 
 print("y is ",y)
+
+
+################### Sample Solution ###################
+# user_response = input("Enter first integer:")
+# x = int(user_response)
+# y = x*x - 12*x + 11
+# print(y)
