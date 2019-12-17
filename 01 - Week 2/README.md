@@ -1,4 +1,4 @@
-# Second week content
+# Second week contents
 
 We explain here what has been done in this section.
 

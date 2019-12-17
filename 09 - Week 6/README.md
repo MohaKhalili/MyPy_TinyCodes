@@ -1,4 +1,4 @@
-#  Sixth week content
+#  Sixth week contents
 
 We explain here what has been done in this section.
 
