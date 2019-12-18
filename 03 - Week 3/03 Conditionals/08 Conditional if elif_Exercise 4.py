@@ -15,3 +15,12 @@ elif "dog" in my_str and "cat" in my_str:
     print("Dog")
 else:
     print("None")
+
+################### Sample Solution ###################
+# user_response=input("Type anything:")
+# if 'dog' in user_response:
+#    print ('Dog')
+# elif 'cat' in user_response:
+#     print ('Cat')
+# else:
+#     print ('None')
