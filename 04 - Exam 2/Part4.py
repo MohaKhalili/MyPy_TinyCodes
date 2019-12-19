@@ -26,3 +26,15 @@ elif (n%2) == 0 or (n%3) == 0:
     print("ONE")
 else:
     print("NEITHER")
+
+
+    
+################### Sample Solution ###################
+# user_response=input("Type a number:")
+# x = int(user_response)
+# if x % 2 == 0 and x % 3 == 0:
+#     print("BOTH")
+# elif (x % 2 != 0 and x % 3 == 0) or (x % 2 == 0 and x % 3 != 0):
+#     print ("ONE")
+# else:
+#     print("NEITHER")
