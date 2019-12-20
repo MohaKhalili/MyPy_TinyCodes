@@ -3,7 +3,7 @@
 # convert the number of seconds into days, hours, minutes, and 
 # seconds and prints them exactly in the format specified below. 
 
-# Type your code here
+# my code
 all_second = input("please enter a number:")
 all_second = int(all_second)
 
