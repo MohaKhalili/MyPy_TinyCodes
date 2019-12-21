@@ -1,4 +1,4 @@
-# a function that calculates and returns the remaining loan balance. 
+# A function that calculates and returns the remaining loan balance. 
 # This function accepts four parameters in the exact order shown below:
 
 #        (principal, annual_interest_rate, duration , number_of_payments)

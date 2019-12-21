@@ -1,4 +1,4 @@
-# a function that finds the magnitude of a given 3-dimensional vector. 
+# A function that finds the magnitude of a given 3-dimensional vector. 
 # The magnitude of a vector is the square root of sum of squares of all
 # the components of the vector.
 
@@ -18,3 +18,20 @@ def altitude(vector):
     z = vector[2]
     number = ((x**2) + (y**2) + (z**2))**(1/2)
     return number
+
+def list_create():
+    lst = [] 
+    # number of elemetns as input 
+    n = 3 
+  
+    # iterating till the range 
+    for i in range(0, n): 
+        ele = int(input("enter 3-dim vector element : ")) 
+  
+        lst.append(ele) # adding the element
+    return lst 
+
+# Driver code test
+my_list = list_create()
+result = altitude(my_list)
+print(result)

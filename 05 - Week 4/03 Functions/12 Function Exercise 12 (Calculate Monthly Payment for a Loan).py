@@ -1,4 +1,4 @@
-# a function that calculates and returns the monthly payments for a loan. 
+# A function that calculates and returns the monthly payments for a loan. 
 # This function accepts three parameters in the exact order (principal, annual_interest_rate, duration):
 
 #    principal: The total amount of loan. Assume that the principal is a positive floating point number.

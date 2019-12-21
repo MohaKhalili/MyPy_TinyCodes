@@ -1,4 +1,4 @@
-# a program for loan calculations. Your program should ask the user for three pieces of 
+# A program for loan calculations. Your program should ask the user for three pieces of 
 # information (with three seperate input() functions:)
 
 #    Total amount of loan.
