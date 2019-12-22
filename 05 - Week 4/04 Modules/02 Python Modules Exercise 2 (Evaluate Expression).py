@@ -1,4 +1,4 @@
-# Write a function that accepts a number x and evaluates the following expression:
+# A function that accepts a number x and evaluates the following expression:
 
 # y=abs(x3)+cos(3x−−√)
 
@@ -9,3 +9,8 @@ import math
 def Evaluate_Expression(x):
     y = abs(x**3) + math.cos(math.sqrt(3*x)) 
     return y
+
+# Driver code test
+number = int(input("Please enter the unknown number : "))
+result = Evaluate_Expression(number)
+print(result)
