@@ -32,7 +32,7 @@
 # embed the helper functions inside the first function. 
 
 # Type your code here
-def vam(principal, annual_interest_rate, duration):
+def MP_loan_calc(principal, annual_interest_rate, duration):
     n = duration * 12
     if annual_interest_rate != 0:
         r = (annual_interest_rate / 100) / 12
@@ -40,3 +40,10 @@ def vam(principal, annual_interest_rate, duration):
     else:
         Mounthly_payment = principal / n
     return Mounthly_payment
+
+# Driver code test
+principal = float(input("Please enter the all of loan value : "))
+annual_interest_rate = float(input("Please enter the annual interest rate : "))
+duration = int(input("Please enter the loan payment duration : "))
+result = MP_loan_calc(principal, annual_interest_rate, duration)
+print(result)
