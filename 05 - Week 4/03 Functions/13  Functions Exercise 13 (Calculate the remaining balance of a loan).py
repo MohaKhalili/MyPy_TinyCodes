@@ -31,7 +31,7 @@
 # inside the first function. 
 
 #Type your code here
-def baghimande(principal,annual_interest_rate,duration,number_of_payments):
+def Remaining_loan_balance(principal,annual_interest_rate,duration,number_of_payments):
     n = duration * 12
     p = number_of_payments
     if annual_interest_rate != 0:
@@ -40,3 +40,11 @@ def baghimande(principal,annual_interest_rate,duration,number_of_payments):
     else:
         Remaining_loan_balance = principal * (1- (p/n))
     return Remaining_loan_balance
+
+# Driver code test
+principal = float(input("Please enter the all of loan value : "))
+annual_interest_rate = float(input("Please enter the annual interest rate : "))
+duration = int(input("Please enter the loan payment duration : "))
+number_of_payments = int(input("Please enter the number of payments : "))
+result = Remaining_loan_balance(principal,annual_interest_rate,duration,number_of_payments)
+print(result)
