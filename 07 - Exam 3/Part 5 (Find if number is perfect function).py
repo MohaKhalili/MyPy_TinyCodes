@@ -1,4 +1,4 @@
-# a function that receives a positive integer as function parameter and returns True 
+# A function that receives a positive integer as function parameter and returns True 
 # if the integer is a perfect number, False otherwise. A perfect number is a number 
 # whose sum of the all the divisors (excluding itself) is equal to itself. 
 
@@ -11,7 +11,7 @@
 # that appears in your code. So, if you want to write more than one function to help you solve the problem, remember 
 # to embed the helper functions inside the first function. 
 
-# Type your code here
+# method 1
 def is_complete(n):
     is_complete = False
     sum_n = 0
@@ -21,3 +21,22 @@ def is_complete(n):
     if sum_n == n:
         is_complete = True
     return is_complete
+
+# method 2
+def completed_number(number):
+    sum_divisors = 0
+    for divisor in range(1,n):
+        # Check for the remainder when n is divided by number
+        # if the remainder is 0 that means number is a divisor of n
+        if number % divisor == 0:
+            sum_divisors = sum_divisors + divisor
+    # check if the sum of the divisors equals to n itself
+    if sum_divisors == number:
+        return True
+    else:
+        return False
+
+# Driver code test
+n = int(input("Please enter your number : "))
+result = completed_number(n)
+print("complete number status : ",result)
