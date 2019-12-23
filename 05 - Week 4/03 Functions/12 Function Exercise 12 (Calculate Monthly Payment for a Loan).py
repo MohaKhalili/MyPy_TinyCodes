@@ -47,3 +47,12 @@ annual_interest_rate = float(input("Please enter the annual interest rate : "))
 duration = int(input("Please enter the loan payment duration : "))
 result = MP_loan_calc(principal, annual_interest_rate, duration)
 print(result)
+
+################### Sample Solution ###################
+# def _calculate_payment(principle, interest_rate_per_year, duration):
+#     if interest_rate_per_year==0:
+#         return principle/(duration*12)
+#     r=interest_rate_per_year/100/12
+#     n=duration*12
+#     montly_payment=principle*(r*((1.0+r)**n))/(float((1.0+r)**n)-1.0)
+#     return montly_payment

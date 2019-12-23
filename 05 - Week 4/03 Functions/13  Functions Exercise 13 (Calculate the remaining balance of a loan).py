@@ -48,3 +48,12 @@ duration = int(input("Please enter the loan payment duration : "))
 number_of_payments = int(input("Please enter the number of payments : "))
 result = Remaining_loan_balance(principal,annual_interest_rate,duration,number_of_payments)
 print(result)
+
+################### Instructor function ###################
+# def _calculate_balance(principal, interest_rate_per_year, duration, number_of_payments):
+#     if interest_rate_per_year==0:
+#         return principal-number_of_payments*(principal/(duration*12.0) )   
+#     r=interest_rate_per_year/100/12.0
+#     n=duration*12
+#     balance=principal*((1.0+r)**n - (1.0+r)**number_of_payments) / (((1.0+r)**n)-1)
+#     return balance
