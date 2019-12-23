@@ -8,7 +8,7 @@
 # function that appears in your code. So, if you want to write more than one function to help you solve the 
 # problem, remember to embed the helper functions inside the first function. 
 
-# Type your code here
+# method 1 with GCD
 def LCM(a,b):
     def GCD(a,b):
         if a == 0: 
@@ -16,3 +16,26 @@ def LCM(a,b):
         return GCD(b % a, a)
     result = (a*b) / GCD(a,b)
     return result
+
+# method 2
+def LCM2(number1, number2):
+    min_number = min(number1, number2)
+    for LCM in range(min_number,(number1*number2)+1):
+        if (LCM % number1 == 0) and (LCM % number2 == 0):
+            return LCM
+
+# Driver code test
+n1 = int(input("Please enter your first number : "))
+n2 = int(input("Please enter your second number : "))
+result = LCM(n1, n2)
+print("least common multiple of ",n1,"and",n2,"is",result)
+
+################### Instructor function ###################
+# def _least_common_multiple_sample_(a, b):
+#     # first make a backup/copy of a
+#     copy_of_a = a
+#     # While the remainder when a is divided by b is not 0
+#     # continue to add a to its backup (copy_of_a)
+#     while (copy_of_a % b) != 0:
+#         copy_of_a = copy_of_a + a
+#     return copy_of_a
