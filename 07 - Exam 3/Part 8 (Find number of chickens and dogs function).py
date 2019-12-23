@@ -27,8 +27,8 @@
 # with the first function that appears in your code. So, if you want to write more than one function 
 # to help you solve the problem remember to embed the helper functions inside the first function.
 
-# Type your code here
-def CountAnimal(Heads, Legs): 
+# method 1
+def CountAnimal1(Heads, Legs): 
     Dog = 0
     Dog = (Legs) - 2 * (Heads)
     if Dog < 0: 
@@ -41,3 +41,27 @@ def CountAnimal(Heads, Legs):
         else:
             result = [int(Chicken), int(Dog)]        
     return result
+
+# method 2
+def CountAnimal2(head, leg):
+    for chicken in range(1,head+1):
+        for dog in range(1,head+1):
+            if ((chicken*2) + (dog*4) == leg) and ((chicken + dog) == head):
+                return [chicken, dog]
+
+# Driver code test
+heads = int(input("Please enter the heads number : "))
+legs = int(input("Please enter the legs number : "))
+result = CountAnimal2(heads, legs)
+print("The number of chickens and dogs is :", result)
+
+################### Sample Solution ###################
+def _sample_fun_puzzle_ (heads,legs):
+    dogs=(legs-heads*2)/2
+    if dogs<0 or dogs%1:
+        return None
+    dogs=int(dogs)
+    chickens=heads-dogs
+    if chickens< 0:
+        return None
+    return [chickens,dogs]
