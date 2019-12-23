@@ -10,11 +10,16 @@
 # the helper functions inside the first function. 
 
 # Type your code here
-def is_prime(n):
-    is_prime = True
-    if n <= 1:
-        is_prime = False   
-    for counter in range(2,n):
-        if n % counter == 0:
-            is_prime = False
-    return is_prime
+def Is_prime(number):
+    if number <= 1:
+        return False
+    # Iterate from 2 to the number
+    for i in range(2,number):
+        if number % i == 0:
+            return False
+    return True
+
+# Driver code test
+n = int(input("Please enter your number : "))
+result = Is_prime(n)
+print("prime number status : ",result)
