@@ -16,7 +16,6 @@ def List_Multiples(number):
     list = []
     multiple = number
     while (counter <= 5):
-        print(counter)
         if multiple % number == 0:
             list.append(multiple)
             multiple = multiple + number
@@ -24,6 +23,6 @@ def List_Multiples(number):
     return list
 
 # Driver code test
-number = float(input("Please enter the number : "))
+number = int(input("Please enter the number : "))
 result = List_Multiples(number)
 print(result)
