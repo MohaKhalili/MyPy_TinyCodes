@@ -28,6 +28,8 @@ According to [Jadi](https://github.com/jadijadi), the course covers up to 70% of
 
 ## News
 
-We are in the sixth week, stay with us until the end :D
+We are in the sixth week, stay with us until the end :)
+	
+January 3, 2020
 
-![alt text](./.vscode/progress.jpg)
+![alt text](./.vscode/40%.png)
