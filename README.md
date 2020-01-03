@@ -32,4 +32,4 @@ We are in the sixth week, stay with us until the end :)
 	
 January 3, 2020
 
-![alt text](./.vscode/40percent.jpg)
+![alt text](./.vscode/50percent.jpg)
