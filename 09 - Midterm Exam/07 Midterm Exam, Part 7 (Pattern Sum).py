@@ -3,7 +3,7 @@
 # k + kk + kkk + .... (the last number in the sequence should have m digits)
 
 # method 1
-def pattern_sum(a, b):
+def pattern_sum1(a, b):
     a = str(a)
     sum_num = 0
     for i in range(1, b+1):
@@ -11,7 +11,7 @@ def pattern_sum(a, b):
     return sum_num
 
 # method 2
-def pattern_sum(a, b):
+def pattern_sum2(a, b):
     MyList = []
     a = str(a)
     for i in range(1,b+1):
@@ -26,7 +26,7 @@ def pattern_sum(a, b):
 
 number = int(input("Please enter your number : "))
 iter = int(input("Please enter desired iteration : "))
-result = pattern_sum(number, iter)
+result = pattern_sum1(number, iter)
 print(result)
 
 ################### Instructor function ###################
