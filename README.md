@@ -25,3 +25,9 @@ According to [Jadi](https://github.com/jadijadi), the course covers up to 70% of
 [Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit)
 
 [Codecademy](https://www.codecademy.com/)
+
+## News
+
+We are in the sixth week, stay with us until the end :D
+
+![alt text](./.vscode/progress.jpg)
