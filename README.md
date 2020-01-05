@@ -26,12 +26,14 @@ According to [Jadi](https://github.com/jadijadi), the course covers up to 70% of
 
 [Codecademy](https://www.codecademy.com/)
 
-## News
+## Updates
 
-We are in the sixth week, stay with us until the end :)
-	
-January 3, 2020
+Here I am announcing the point where I am coding :)
+
+- ~~We are in sixth week, January 3, 2020.~~
+
+- We are in 2nd assignment, January 6, 2020.
+
+You can see progress bar in below...
 
 ![alt text](./.vscode/50percent.jpg)
-
-## 
