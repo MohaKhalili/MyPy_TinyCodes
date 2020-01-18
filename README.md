@@ -32,8 +32,10 @@ Here I am announcing the point where I am coding :)
 
 - ~~We are in sixth week, January 3, 2020.~~
 
-- We are in 2nd assignment, January 6, 2020.
+- ~~We are in 2nd assignment, January 6, 2020.~~
+
+- Now we move on to the fourth exam, January 18, 2020.
 
 You can see progress bar in below...
 
-![alt text](./.vscode/50percent.jpg)
+![alt text](./.vscode/60percent.jpg)
