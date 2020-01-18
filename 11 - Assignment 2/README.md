@@ -1,25 +1,17 @@
-# MyPy_TinyCodes
+# Assignment 2 contents
 
-This is a repository of my Python codes I've written for the "Introduction to Programming Using Python" course at edx.
+In this assignment you are asked to write a spell checker (corrector). This assignment includes 3 parts. In the first part you are asked to write a function to to compare two strings and return 0 if they match, return 1 if they mismatch in one character and return 2 if they mismatch by more than one character.
 
-This course has been launched by the University of Texas at Arlington ([UTArlingtonX: CSE1309x](https://courses.edx.org/courses/course-v1:UTArlingtonX+CSE1309x+1T2018/course/))
+In the second part you are asked to write a function to check if a string can match another string by either inserting or deleting a character.
 
-## Course refrences
+In the third part you are asked to write a function to correct spelling of a string (sentence) by using a list of correct words. This third function uses the first two functions as helper functions. 
 
-1 - Rossum, Guido Van. "Foreword for "Programming Python" Python.org, May 1996. Web. 22 Dec. 2015.
+Part--------Points--------Comment
 
-2 - "About Python." About Python | Python.org  Python.org, n.d. Web.
+Part 1------35------------A function to find the number of mismatched characters between two strings. 
 
-## Other Tutorials
+Part 2------35------------A function to check if a string can match another string by inserting or deleting a character. 
 
-[Beginner's Guide to Python](https://wiki.python.org/moin/BeginnersGuide)
+Part 3------30------------A function to correct the spelling of words in a sentence. 
 
-[Python 3.4.4 documentation](https://docs.python.org/3.4/)
-
-[The Python Tutorial (V 3.4)](https://docs.python.org/3.4/tutorial/)
-
-[Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
-
-[Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit)
-
-[Codecademy](https://www.codecademy.com/)
+You have  20 attempts for each part of this assignment.
