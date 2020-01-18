@@ -8,10 +8,10 @@ In the third part you are asked to write a function to correct spelling of a str
 
 Part--------Points--------Comment
 
-Part 1------35------------A function to find the number of mismatched characters between two strings. 
+Part 1------30------------A function to find the number of mismatched characters between two strings. 
 
-Part 2------35------------A function to check if a string can match another string by inserting or deleting a character. 
+Part 2------30------------A function to check if a string can match another string by inserting or deleting a character. 
 
-Part 3------30------------A function to correct the spelling of words in a sentence. 
+Part 3------40------------A function to correct the spelling of words in a sentence. 
 
 You have  20 attempts for each part of this assignment.
