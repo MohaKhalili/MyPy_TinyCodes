@@ -27,9 +27,9 @@
 #     Remove extra spaces between the words.
 #     Remove spaces at the start and end of the output string.
 
-def Spelling_corrector(input_string, input_list):
+def spelling_corrector(input_string, input_list):
 
-    input_string = input_string.split()
+    input_string = input_string.lower().split()
     output_string = ''
 
     def single_insert_or_delete(string1, string2):
