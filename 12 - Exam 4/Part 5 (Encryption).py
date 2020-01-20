@@ -19,6 +19,29 @@
 
 # Type your code here
 def my_encryption(some_string):
-
     character_set = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 "
     secret_key    = "Dd18Abz2EqNPW hYTOjBvtVlpXaH6msFUICg4o0KZwJeryQx3f9kSinRu5L7cGM"
+    encrypt_string = ""
+    for chara in some_string:
+        for item in character_set:
+            if chara == item:
+                i_index = character_set.index(chara)
+                encrypt_string += secret_key[i_index]
+                break
+    return encrypt_string
+
+# driver code tester
+String = input("Please enter your string : ")
+result = my_encryption(String)
+print(result)
+
+################### Instructor function ###################
+# def _encryption_sample_ed2_0215(my_string):
+#     character_set = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 "
+#     secret_key    = "Dd18Abz2EqNPW hYTOjBvtVlpXaH6msFUICg4o0KZwJeryQx3f9kSinRu5L7cGM"
+#     encrypted_message = ""
+#     for character in my_string:
+#         index = character_set.find(character)
+#         encrypted_message = encrypted_message + secret_key[index] 
+  
+#     return encrypted_message
