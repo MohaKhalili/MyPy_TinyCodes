@@ -34,7 +34,9 @@ Here I am announcing the point where I am coding :)
 
 - ~~We are in 2nd assignment, January 6, 2020.~~
 
-- Now we move on to the fourth exam, January 18, 2020.
+- ~~Now we move on to the fourth exam, January 18, 2020.~~
+
+- Hello week 7 :D , 20 January, 2020.
 
 You can see progress bar in below...
 
