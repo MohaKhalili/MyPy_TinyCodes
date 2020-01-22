@@ -19,16 +19,10 @@
 # [[15, 9, 47], [21, 10, 66]] 
 
 def Multiplication_two_Matrices(Mat1, Mat2):
-    output_list = []
-    for i in range(len(Mat1)):
-        test_list = []
-        for k in range(len(Mat2[0])):
-            test_num = 0
-            for j in range(len(Mat1[i])):
-                test_num += Mat1[i][j] * Mat2[j][k]
-            test_list.append(test_num)
-        output_list.append(test_list)
-    return output_list
+    import numpy
+    product = (numpy.mat(a) * numpy.mat(b))
+    product_to_list = product.tolist()
+    return product_to_list
 
 # driver code tester
 a = [[2, 3, 4],
@@ -39,10 +33,3 @@ b = [[4, -3, 12],
 
 result = Multiplication_two_Matrices(a, b)
 print(result)
-
-################### Sample Solution ###################
-# def _product_of_two_vectors_sample_(a, b):
-#     import numpy
-#     product = (numpy.mat(a) * numpy.mat(b))     # returns a numpy array
-#     product_to_list = product.tolist()          # convert the numpy array to a standard list
-#     return product_to_list
