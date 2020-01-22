@@ -20,7 +20,7 @@
 
 def Multiplication_two_Matrices(Mat1, Mat2):
     import numpy
-    product = (numpy.mat(a) * numpy.mat(b))
+    product = (numpy.mat(Mat1) * numpy.mat(Mat2))
     product_to_list = product.tolist()
     return product_to_list
 
