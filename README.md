@@ -45,6 +45,271 @@ According to [Jadi](https://github.com/jadijadi), the course covers up to 70% of
             <td align="center">Using the Text Editor</td>
         </tr>
     </tbody>
+	<tbody>
+        <tr>
+            <td rowspan=9 align="center">Week 2</td>
+            <td rowspan=5  align="center">Variables and Identifiers</td>
+            <td align="center">Variables and Identifiers</td>
+        </tr>
+        <tr>
+            <td align="center">How to Name Your Identifiers</td>
+        </tr>
+		<tr>
+            <td align="center">Use Descriptive Identifiers and Comments</td>
+        </tr>
+		<tr>
+            <td align="center">Variable Types</td>
+        </tr>Get Input from User
+		<tr>
+            <td align="center">Get Input from User</td>
+        </tr>
+        <tr>
+            <td rowspan=2 align="center">Statements</td>
+            <td align="center">Equal Sign</td>
+        </tr>
+        <tr>
+            <td align="center">Statements, Assignments, and Expressions</td>
+        </tr>
+        <tr>
+            <td rowspan=2 align="center">List Basics</td>
+            <td align="center">Lists</td>
+        </tr>
+        <tr>
+            <td align="center">List Basics Exercise 1</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td colspan=3 align="center">Quiz 1</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td rowspan=7 align="center">Week 3</td>
+            <td rowspan=5  align="center">Operators</td>
+            <td align="center">Operators</td>
+        </tr>
+        <tr>
+            <td align="center">Arithmetic Operators and Precedence</td>
+        </tr>
+		<tr>
+            <td align="center">Relational Operators</td>
+        </tr>
+		<tr>
+            <td align="center">Logical Operators</td>
+        </tr>
+		<tr>
+            <td align="center">Membership Operators</td>
+        </tr>
+        <tr>
+            <td rowspan=2 align="center">Conditionals</td>
+            <td align="center">Conditionals if else</td>
+        </tr>
+        <tr>
+            <td align="center">Conditionals if elif else</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td colspan=3 align="center">Quiz 2</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td rowspan=7 align="center">Week 4</td>
+            <td rowspan=4  align="center">Loops</td>
+            <td align="center">While Loop</td>
+        </tr>
+        <tr>
+            <td align="center">For Loop</td>
+        </tr>
+		<tr>
+            <td align="center">Continue and Break</td>
+        </tr>
+		<tr>
+            <td align="center">Nested Loops</td>
+        </tr>
+        <tr>
+            <td rowspan=3 align="center">Functions</td>
+            <td align="center">Functions</td>
+        </tr>
+        <tr>
+            <td align="center">Functions Analogy</td>
+        </tr>
+		<tr>
+            <td align="center">Modules</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td colspan=3 align="center">Assignment 1</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td colspan=3 align="center">Quiz 3</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td rowspan=5 align="center">Week 5</td>
+            <td rowspan=1  align="center">List Manipulation</td>
+            <td align="center">List Methods</td>
+        </tr>
+        <tr>
+            <td rowspan=4 align="center">List slicing</td>
+            <td align="center">List Slicing</td>
+        </tr>
+        <tr>
+            <td align="center">List Slicing Negative Index</td>
+        </tr>
+		<tr>
+            <td align="center">List Slicing with Step</td>
+        </tr>
+		<tr>
+            <td align="center">List Slicing Default Index</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td colspan=3 align="center">Midterm Exam</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td rowspan=5 align="center">Week 6</td>
+            <td rowspan=2  align="center">Strings</td>
+            <td align="center">Strings</td>
+        </tr>
+        <tr>
+            <td align="center">Character Encoding</td>
+        </tr>
+        <tr>
+            <td rowspan=3 align="center">String Methods</td>
+            <td align="center">String Methods</td>
+        </tr>
+        <tr>
+            <td align="center">Strings Practice 1</td>
+        </tr>
+		<tr>
+            <td align="center">Strings Practice 2</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td colspan=3 align="center">Assignment 2</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td colspan=3 align="center">Quiz 4</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td rowspan=5 align="center">Week 7</td>
+            <td rowspan=2  align="center">Using another IDLE</td>
+            <td align="center">Why Use Another IDLE</td>
+        </tr>
+        <tr>
+            <td align="center">Step by step guide to install Wing IDE 101</td>
+        </tr>
+        <tr>
+            <td rowspan=1 align="center">Multi-Dimensional Lists</td>
+            <td align="center">Multidimensional Lists</td>
+        </tr>
+		<tr>
+            <td rowspan=2 align="center">Dictionaries</td>
+            <td align="center">Dictionaries</td>
+        </tr>
+        <tr>
+            <td align="center">Dictionary Methods</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td colspan=3 align="center">Assignment 3</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td colspan=3 align="center">Quiz 5</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td rowspan=11 align="center">Week 8</td>
+            <td rowspan=3  align="center">File I/O</td>
+            <td align="center">File IO</td>
+        </tr>
+        <tr>
+            <td align="center">File Acess Modes</td>
+        </tr>
+		<tr>
+            <td align="center">File Position</td>
+        </tr>
+        <tr>
+            <td rowspan=2 align="center">Tuples</td>
+            <td align="center">Tuples</td>
+        </tr>
+		<tr>
+            <td align="center">Tuples in Function Returns</td>
+        </tr>
+		<tr>
+            <td rowspan=6 align="center">Formatting</td>
+            <td align="center">Formatting</td>
+        </tr>
+        <tr>
+            <td align="center">Formatting Positional</td>
+        </tr>
+		<tr>
+            <td align="center">Formatting Width Precision Type</td>
+        </tr>
+		<tr>
+            <td align="center">Formatting Practice</td>
+        </tr>
+		<tr>
+            <td align="center">Formatting Fill Align</td>
+        </tr>
+		<tr>
+            <td align="center">Formatting Sign</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td colspan=3 align="center">Assignment 4</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td colspan=3 align="center">Quiz 6</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td rowspan=5 align="center">Week 9</td>
+            <td rowspan=3  align="center">More about Functions</td>
+            <td align="center">Namespaces</td>
+        </tr>
+        <tr>
+            <td align="center">Scope</td>
+        </tr>
+		<tr>
+            <td align="center">Recursive Functions</td>
+        </tr>
+		<tr>
+            <td rowspan=2 align="center">Error Handling</td>
+            <td align="center">Errors and Exceptions</td>
+        </tr>
+        <tr>
+            <td align="center">Exception Handling</td>
+        </tr>
+    </tbody>
+	<tbody>
+        <tr>
+            <td colspan=3 align="center">Final Exam</td>
+        </tr>
+    </tbody>
 </table>
 
 ## Refrences
