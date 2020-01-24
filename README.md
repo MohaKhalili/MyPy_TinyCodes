@@ -59,7 +59,7 @@ According to [Jadi](https://github.com/jadijadi), the course covers up to 70% of
         </tr>
 		<tr>
             <td align="center">Variable Types</td>
-        </tr>Get Input from User
+        </tr>
 		<tr>
             <td align="center">Get Input from User</td>
         </tr>
