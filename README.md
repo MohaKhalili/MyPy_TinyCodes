@@ -6,7 +6,48 @@ It has been launched by the University of Texas at Arlington,
 and includes 9 weeks of training on various Python programming topics, 4 assignments, and 6 exams. 
 According to [Jadi](https://github.com/jadijadi), the course covers up to 70% of Python's mastery :D
 
-## Course refrences
+## Contents
+
+<table>
+    <thead>
+        <tr>
+            <th align="center">Weeks</th>
+            <th align="center">Subjects</th>
+            <th align="center">Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=8 align="center">Week 1</td>
+            <td rowspan=4  align="center">Python Installation and Environment</td>
+            <td align="center">Installing Python on Windows</td>
+        </tr>
+        <tr>
+            <td align="center">Installing Python on Mac</td>
+        </tr>
+		<tr>
+            <td align="center">Installing Python on Linux</td>
+        </tr>
+		<tr>
+            <td align="center">Python Shell & IDLE</td>
+        </tr>
+        <tr>
+            <td rowspan=4 align="center">Getting Started</td>
+            <td align="center">Python Basics</td>
+        </tr>
+        <tr>
+            <td align="center">Algorithms and Programs</td>
+        </tr>
+		<tr>
+            <td align="center">Your First Program</td>
+        </tr>
+		<tr>
+            <td align="center">Using the Text Editor</td>
+        </tr>
+    </tbody>
+</table>
+
+## Refrences
 
 1 - Rossum, Guido Van. "Foreword for "Programming Python" Python.org, May 1996. Web. 22 Dec. 2015.
 
