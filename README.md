@@ -8,7 +8,7 @@ According to [Jadi](https://github.com/jadijadi), the course covers up to 70% of
 
 ## Contents
 
-<table>
+<table align="center">
     <thead>
         <tr>
             <th align="center">Weeks</th>
