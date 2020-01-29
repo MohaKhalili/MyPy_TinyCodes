@@ -1,25 +1,38 @@
-# MyPy_TinyCodes
+# Assignment 3 contents
 
-This is a repository of my Python codes I've written for the "Introduction to Programming Using Python" course at edx.
+In the first part you are asked to write a function which searches the rows of a 2-dimensional list of characters to find a given string (word). If a match is found, then the indexes for the starting character of the match is returned. Otherwise None is returned.
 
-This course has been launched by the University of Texas at Arlington ([UTArlingtonX: CSE1309x](https://courses.edx.org/courses/course-v1:UTArlingtonX+CSE1309x+1T2018/course/))
+In the second part you are asked to write a function which searches the columns of a 2-dimensional list of characters to find a given string (word). If a match is found, then the indexes for the starting character of the match is returned. Otherwise None is returned.
 
-## Course refrences
+In the last part you are asked to write a function which searches both rows and columns of a 2-dimensional list of characters to find a given string (word). If a match is found, then the matching characters in the 2-dimensional list are capitalized and the list is returned. Otherwise the original list is returned with no modification.
 
-1 - Rossum, Guido Van. "Foreword for "Programming Python" Python.org, May 1996. Web. 22 Dec. 2015.
+<font size="0.5" face="Courier New">
+<table align="center">
+    <thead>
+        <tr>
+            <th align="center">Part</th>
+            <th align="center">Point</th>
+            <th align="center">Comment</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">Part 1</td>
+            <td align="center">30</td>
+            <td align="center">A function to search for a word in the rows of a 2-dimensional list of characters.</td>
+        </tr>
+        <tr>
+            <td align="center">Part 2</td>
+            <td align="center">30</td>
+            <td align="center">A function to search for a word in the columns of a 2-dimensional list of characters.</td>
+        </tr>
+        <tr>
+            <td align="center">Part 3</td>
+            <td align="center">40</td>
+            <td align="center">A function to search for a word in the rows and columns of a 2-dimensional list of characters and capitalizes the matching characters. </td>
+        </tr>
+    </tbody>
+</table>
+</font>
 
-2 - "About Python." About Python | Python.org  Python.org, n.d. Web.
-
-## Other Tutorials
-
-[Beginner's Guide to Python](https://wiki.python.org/moin/BeginnersGuide)
-
-[Python 3.4.4 documentation](https://docs.python.org/3.4/)
-
-[The Python Tutorial (V 3.4)](https://docs.python.org/3.4/tutorial/)
-
-[Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
-
-[Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit)
-
-[Codecademy](https://www.codecademy.com/)
+You have  20 attempts for each part of this assignment.
