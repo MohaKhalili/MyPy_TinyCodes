@@ -8,7 +8,7 @@ According to [Jadi](https://github.com/jadijadi), the course covers up to 70% of
 
 ## Contents
 
-<font size="2">
+<font size="0.5" face="Courier New">
 <table align="center">
     <thead>
         <tr>
