@@ -8,6 +8,7 @@ According to [Jadi](https://github.com/jadijadi), the course covers up to 70% of
 
 ## Contents
 
+<font size="2">
 <table align="center">
     <thead>
         <tr>
@@ -311,6 +312,7 @@ According to [Jadi](https://github.com/jadijadi), the course covers up to 70% of
         </tr>
     </tbody>
 </table>
+</font>
 
 ## Refrences
 
@@ -336,14 +338,16 @@ According to [Jadi](https://github.com/jadijadi), the course covers up to 70% of
 
 Here I am announcing the point where I am coding :)
 
-- ~~We are in sixth week, January 3, 2020.~~
+- ~~We are in sixth week, January 3 2020.~~
 
-- ~~We are in 2nd assignment, January 6, 2020.~~
+- ~~We are in 2nd assignment, January 6 2020.~~
 
-- ~~Now we move on to the fourth exam, January 18, 2020.~~
+- ~~Now we move on to the fourth exam, January 18 2020.~~
 
-- Hello week 7 :D , 20 January, 2020.
+- ~~Hello week 7 :D , January 20 2020.~~
+
+- We reached assignments 3, January 29 2020.
 
 You can see progress bar in below...
 
-![alt text](./.vscode/60percent.jpg)
+![alt text](./.vscode/70percent.jpg)
