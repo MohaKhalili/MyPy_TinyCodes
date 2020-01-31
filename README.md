@@ -332,7 +332,7 @@ According to [Jadi](https://github.com/jadijadi), the course covers up to 70% of
 
 [Python Tutor](http://www.pythontutor.com/visualize.html#mode=edit)
 
-[Codecademy](https://www.codecademy.com/)
+[Codeacademy](https://www.codecademy.com/)
 
 ## Updates
 
