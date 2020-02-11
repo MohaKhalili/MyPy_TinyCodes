@@ -348,8 +348,10 @@ Here I am announcing the point where I am coding :)
 
 - ~~We reached assignments 3, January 29 2020.~~
 
-- After doing the third assignment, I did the 5th exam and Now, I reach the 8th week, January 31 2020.
+- ~~After doing the third assignment, I did the 5th exam and Now, I reach the 8th week, January 31 2020.~~
+
+- We are in exam 6, February 11 2020.
 
 You can see progress bar in below...
 
-![alt text](./.vscode/80percent.jpg)
+![alt text](./.vscode/90percent.jpg)
