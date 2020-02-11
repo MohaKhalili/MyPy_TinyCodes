@@ -10,7 +10,8 @@
 # Student ID, Last_name,  Test_x, grade, Test_x, grade, ..
 # .... 
 
-# An example of the input file is shown below. Sample Input Output Assuming that the input file "student_grades.txt" contains the following text:
+# An example of the input file is shown below. Sample Input Output Assuming 
+# that the input file "student_grades.txt" contains the following text:
 
 # 1000123456, Rubble, Test_3,  80, Test_4 , 80
 # 1000123459, Chipmunk, Test_4, 96, Test_1, 86 , Quiz_1 , 88
@@ -37,7 +38,7 @@
 # should return the following dictionary:
 # {'1000123456': ['Rubble', 0, 0, 80, 80, 40.0], '1000123459': ['Chipmunk', 86, 0, 0, 96, 45.5]}
 
-
+################### My function ###################
 # Type your code here
 def create_grades_dict(file_name):
     my_file = open(file_name,'r')
@@ -48,23 +49,71 @@ def create_grades_dict(file_name):
 
     for line in data:
         line = line.strip().replace(" ","").split(',')
-        index = int((len(line) - 2) / 2)
         list_test = []
-
+        flag_1, flag_2, flag_3, flag_4 = [0, 0, 0, 0]
         for index in range(len(line)):
             if index == 0:
                 list_test.append(line[1])
                 out_dict[line[0]] = list_test
             elif index == 1:
                 continue
-            elif index % 2 == 1:
-                list_test.append(int(line[index]))
-                out_dict[line[0]] = list_test
+            else:
+                if ('Test_1' in line) and (flag_1 == 0):
+                    grade_1_index = line.index('Test_1') + 1
+                    list_test.append(float(line[grade_1_index]))
+                    flag_1 = 1
+                elif ('Test_1' not in line) and (flag_1 == 0):
+                    list_test.append(float(0))
+                    flag_1 = 1
+                elif ('Test_2' in line) and (flag_2 == 0):
+                    grade_2_index = line.index('Test_2') + 1
+                    list_test.append(float(line[grade_2_index]))
+                    flag_2 = 1
+                elif ('Test_2' not in line) and (flag_2 == 0):
+                    list_test.append(float(0))
+                    flag_2 = 1
+                elif ('Test_3' in line) and (flag_3 == 0):
+                    grade_3_index = line.index('Test_3') + 1
+                    list_test.append(float(line[grade_3_index]))
+                    flag_3 = 1
+                elif ('Test_3' not in line) and (flag_3 == 0):
+                    list_test.append(float(0))
+                    flag_3 = 1
+                elif ('Test_4' in line) and (flag_4 == 0):
+                    grade_4_index = line.index('Test_4') + 1
+                    list_test.append(float(line[grade_4_index]))
+                    flag_4 = 1
+                elif ('Test_4' not in line) and (flag_4 == 0):
+                    list_test.append(float(0)) 
+                    flag_4 = 1
+        AVGERAGE = sum(list_test[1:]) / 4
+        list_test.append(AVGERAGE)
     return out_dict
-
-
 
 ################### Driver Code Tester ###################
 file_directory = '.\\17 - Assignment 4\\student_grades.txt'
 result = create_grades_dict(file_directory)
 print(result)
+
+################### Instructor function ###################
+# Type your code here
+def _create_grades_dict(file_name):
+    grade_dict={}
+    tests=['Test_1','Test_2','Test_3','Test_4']
+    fp=open(file_name,'r')
+    lines=fp.readlines()
+    fp.close()
+    for line in lines:
+        elements=line.strip().split(",")
+        if elements and elements[0]:
+            current_key=elements[0].strip()
+            if len(current_key)==10:
+                if grade_dict.get(current_key)==None:
+                    # Key does not exist. Create it
+                    grade_dict[current_key]=[elements[1].strip(),0,0,0,0,0]                
+                for index in range(2,len(elements),2):
+                    current_element=elements[index].strip()
+                    if  current_element in tests:
+                        grade_dict[current_key][int(current_element[-1])]=int(elements[index+1])
+                grade_dict[current_key][5]=sum(grade_dict[current_key][1:5])/4.0
+    return grade_dict
