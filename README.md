@@ -350,7 +350,9 @@ Here I am announcing the point where I am coding :)
 
 - ~~After doing the third assignment, I did the 5th exam and Now, I reach the 8th week, January 31 2020.~~
 
-- We are in exam 6, February 11 2020.
+- ~~We are in exam 6, February 11 2020.~~
+
+- Week 9 starts in February 13 2020.
 
 You can see progress bar in below...
 
