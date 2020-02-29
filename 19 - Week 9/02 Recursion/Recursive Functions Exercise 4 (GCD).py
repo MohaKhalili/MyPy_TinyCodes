@@ -6,13 +6,14 @@
 # Your function should return:
 # 5
 
-# Type your code here
+################### My Solution ###################
 def calculate_gcd(a, b):
     if b==0: 
         return a
     else: 
         return calculate_gcd(b,a%b)
-  
+
+################### Driver Code ###################
 number_a = int(input("Please enter your number_a for exponent calculation : "))
 number_b = int(input("Please enter your number_b for exponent calculation : "))
 result = calculate_gcd(number_a, number_b)
