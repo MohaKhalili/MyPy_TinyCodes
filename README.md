@@ -352,7 +352,9 @@ Here I am announcing the point where I am coding :)
 
 - ~~We are in exam 6, February 11 2020.~~
 
-- Week 9 starts in February 13 2020.
+- ~~Week 9 starts in February 13 2020.~~
+
+- I've came back :D, because of CoronaVirus problems and some other issues, I wasn't coding, but Now you can see week 9 is done and we are in final exam, March 25 2020.
 
 You can see progress bar in below...
 
