@@ -27,6 +27,16 @@ def sorting_list(MyList):
         MyList.pop(MyList.index(min_num))
         i = i + 1 
     return sorted_List
+
+#method 3 (Bubble sort algorithm)
+def sorting(mylist):
+    ex_list = mylist
+    for j in range(len(mylist)):
+        for i in range(len(mylist)-1):
+            if ex_list[i]>ex_list[i+1]:
+                ex_list.insert(i,ex_list[i+1])
+                ex_list.pop(i+2)
+    return ex_list
     
 # getting list from input
 def list_create():
