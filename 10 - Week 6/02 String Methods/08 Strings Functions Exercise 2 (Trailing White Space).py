@@ -26,6 +26,19 @@ def Trailing_White_Space2(str):
     str_new = str[:index]
     return str_new
 
+# method 3
+def Trailing_White_Space3(my_string):
+    new_string = ""
+    n = len(my_string)
+    for i in range(n):
+        if my_string[i] == " ":
+            new_string = new_string + my_string[i]
+        else:
+            new_string = new_string + my_string[i]
+            if my_string[i+1:] == " "*(n-i-1):
+                break
+    return new_string
+
 my_str = input("Please enter your string : ")
 result = Trailing_White_Space2(my_str)
 print(result)
